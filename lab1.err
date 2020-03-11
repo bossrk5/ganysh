@@ -1,0 +1,86 @@
+/COM,ANSYS RELEASE Release 17.0      BUILD 17.0      UP20151214       13:51:59
+
+ *** ERROR ***                           CP =       1.828   TIME= 13:55:16
+ An error occurred while attempting to open the results file lab1.rst.   
+
+ *** WARNING ***                         CP =       1.984   TIME= 13:55:21
+ Unable to read geometry from the ( rst ) results file.  Either the      
+ geometry is not on the file or the file could not be read.  The SET     
+ command is ignored.  If the file is an older results file that does     
+ not contain the geometry, issue a RESUME command to restore the         
+ geometry to the database.                                               
+
+ *** ERROR ***                           CP =       2.047   TIME= 13:55:31
+ An error occurred while attempting to open the results file lab1.rst.   
+
+ *** WARNING ***                         CP =       2.172   TIME= 13:55:34
+ Unable to read geometry from the ( rst ) results file.  Either the      
+ geometry is not on the file or the file could not be read.  The SET     
+ command is ignored.  If the file is an older results file that does     
+ not contain the geometry, issue a RESUME command to restore the         
+ geometry to the database.                                               
+
+ *** WARNING ***                         CP =       2.219   TIME= 13:55:34
+ No *DO trips needed, enter *ENDDO .                                     
+
+ *** ERROR ***                           CP =       2.250   TIME= 13:55:34
+ Subscript range error.  Parameter F_GR is dimensioned as 1, but         
+ location 2 is being requested                                           
+                                                                         
+
+ *** ERROR ***                           CP =       2.328   TIME= 13:55:36
+ No data exists for dimensioned parameter F_GR with subscript 2.         
+
+ *** ERROR ***                           CP =       2.391   TIME= 13:55:37
+ The above error occurred processing field= F_GR(2)-F_GR(1)              
+  Line= *SET,K_gr(2),((F_gr(2)-F_gr(1))/(V_gr(2)-V_gr(1))).              
+
+ *** ERROR ***                           CP =       2.422   TIME= 13:55:37
+ Subscript 1 is out of range for parameter K_GR                          
+  Specified value is 2 Maximum value is 1.                               
+
+ *** ERROR ***                           CP =       2.469   TIME= 13:55:38
+ Subscript range error.  Parameter K_GR is dimensioned as 1, but         
+ location 2 is being requested                                           
+                                                                         
+
+ *** ERROR ***                           CP =       2.516   TIME= 13:55:38
+ No data exists for dimensioned parameter K_GR with subscript 2.         
+
+ *** ERROR ***                           CP =       2.562   TIME= 13:55:39
+ The above error occurred processing field= K_GR(2)                      
+  Line= *SET,K_gr(1),(K_gr(2)).                                          
+
+ *** WARNING ***                         CP =       2.625   TIME= 13:55:39
+ No *DO trips needed, enter *ENDDO .                                     
+
+ *** ERROR ***                           CP =       2.656   TIME= 13:55:39
+ Subscript range error.  Parameter F_GR is dimensioned as 1, but         
+ location 0 is being requested                                           
+                                                                         
+
+ *** ERROR ***                           CP =       2.719   TIME= 13:55:39
+ No data exists for dimensioned parameter F_GR with subscript 0.         
+
+ *** ERROR ***                           CP =       2.750   TIME= 13:55:40
+ The above error occurred processing field=                              
+ F_GR(NUM_ITER)-F_GR(NUM_ITER-1)                                         
+  Line=                                                                  
+ *SET,K_gr(num_iter),((F_gr(num_iter)-F_gr(num_iter-1))/(V_gr(num_iter)- 
+ -V_gr(num_iter-1))).                                                    
+
+ *** ERROR ***                           CP =       2.812   TIME= 13:55:41
+ Subscript 1 is out of range for parameter K_GR                          
+  Specified value is 0 Maximum value is 1.                               
+
+ *** WARNING ***                         CP =       2.875   TIME= 13:55:44
+ The view for graph plots is currently NOT changeable.                   
+  To enable graph view manipulation, issue /GROPTS,VIEW,1.               
+
+ *** WARNING ***                         CP =       2.891   TIME= 13:55:46
+ The view for graph plots is currently NOT changeable.                   
+  To enable graph view manipulation, issue /GROPTS,VIEW,1.               
+/COM,ANSYS RELEASE Release 17.0      BUILD 17.0      UP20151214       14:06:05
+
+ *** ERROR ***                           CP =       2.844   TIME= 14:39:17
+ Keypoint 2 not defined.                                                 

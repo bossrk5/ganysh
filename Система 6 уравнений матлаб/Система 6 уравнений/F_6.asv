@@ -1,0 +1,24 @@
+%Система 6 дифференциальных уравнений.
+function Ffunc = F_6(s,x, s1, s2, s3, s4, s5)
+
+%глобальные переменные (общие для всех функций в программе)
+global EJ_dif;
+global EA_dif;
+
+
+%осевая деформация
+epsilon = (x(4)*cos(x(3))+x(5)*sin(x(3)))/EA_dif;
+
+
+%6 уравнений
+
+
+Ffunc(1,1) = (1+epsilon)*cos(x(3));
+Ffunc(2,1) = (1+epsilon)*sin(x(3));
+Ffunc(3,1) = K0_func(s, s1, s2, s3, s4, s5) + (1+epsilon)*(x(6))/EJ_dif;
+
+Ffunc(4,1) = 0;
+Ffunc(5,1) = 0;
+Ffunc(6,1) = -(1+epsilon)* (x(5)*cos(x(3))-x(4)*sin(x(3)));
+
+end

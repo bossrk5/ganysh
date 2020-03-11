@@ -1,0 +1,104 @@
+/COM,ANSYS RELEASE Release 17.0      BUILD 17.0      UP20151214       14:50:48
+
+ *** ERROR ***                           CP =       2.547   TIME= 14:53:39
+ Unable to create primitive with 0 height.  BLC4 command is ignored.     
+
+ *** ERROR ***                           CP =       2.953   TIME= 14:55:05
+ Unable to create primitive with 0 height.  BLC4 command is ignored.     
+
+ *** WARNING ***                         CP =       3.234   TIME= 15:04:24
+ Element type 2 is not yet defined.                                      
+  Use the ET command to define this element type.                        
+
+ *** WARNING ***                         CP =       3.312   TIME= 15:04:53
+ Element type 2 is not yet defined.                                      
+  Use the ET command to define this element type.                        
+
+ *** WARNING ***                         CP =       4.547   TIME= 15:07:37
+ The VEXT command is ignored.                                            
+
+ *** WARNING ***                         CP =       4.641   TIME= 15:08:02
+ All of the selected areas in the set named on the AMESH command were    
+ already meshed.  Clear associated elements before remeshing.            
+
+ *** WARNING ***                         CP =       6.078   TIME= 15:11:44
+ There are no active degrees of freedom.                                 
+
+ *** ERROR ***                           CP =      11.312   TIME= 15:15:01
+ Area 4 is not parallel to the global XY plane.  Cannot mesh with 2-D    
+ planar elements.                                                        
+
+ *** ERROR ***                           CP =      11.406   TIME= 15:15:09
+ Area 5 is not parallel to the global XY plane.  Cannot mesh with 2-D    
+ planar elements.                                                        
+
+ *** ERROR ***                           CP =      11.453   TIME= 15:15:11
+ Area 6 is not parallel to the global XY plane.  Cannot mesh with 2-D    
+ planar elements.                                                        
+
+ *** ERROR ***                           CP =      11.484   TIME= 15:15:13
+ Area 7 is not parallel to the global XY plane.  Cannot mesh with 2-D    
+ planar elements.                                                        
+
+ *** ERROR ***                           CP =      11.516   TIME= 15:15:14
+ Unable to mesh area 8 because divisions along lines do not meet a valid 
+ pattern for mapped meshing.                                             
+
+ *** ERROR ***                           CP =      11.531   TIME= 15:15:14
+ Area 9 is not parallel to the global XY plane.  Cannot mesh with 2-D    
+ planar elements.                                                        
+
+ *** ERROR ***                           CP =      11.547   TIME= 15:15:15
+ Area 10 is not parallel to the global XY plane.  Cannot mesh with 2-D   
+ planar elements.                                                        
+
+ *** ERROR ***                           CP =      11.594   TIME= 15:15:15
+ Area 11 is not parallel to the global XY plane.  Cannot mesh with 2-D   
+ planar elements.                                                        
+
+ *** WARNING ***                         CP =      12.219   TIME= 15:17:03
+ /CLEAR is not a recognized PREP7 command, abbreviation, or macro.       
+  This command will be ignored.                                          
+
+ *** WARNING ***                         CP =      12.281   TIME= 15:17:12
+ /CLEAR is not a recognized PREP7 command, abbreviation, or macro.       
+  This command will be ignored.                                          
+
+ *** WARNING ***                         CP =      12.297   TIME= 15:17:18
+ /CLEAR is not a recognized PREP7 command, abbreviation, or macro.       
+  This command will be ignored.                                          
+
+ *** WARNING ***                         CP =      12.312   TIME= 15:17:22
+ /BATCH is not a recognized PREP7 command, abbreviation, or macro.       
+  This command will be ignored.                                          
+
+ *** WARNING ***                         CP =      12.344   TIME= 15:17:22
+ User Interface mode is already on.  Command ignored.                    
+
+ *** ERROR ***                           CP =      12.781   TIME= 15:17:25
+ Data file lab2.db does not exist for RESUME.                            
+
+ *** ERROR ***                           CP =      12.938   TIME= 15:17:27
+ Data file lab2.db does not exist for RESUME.                            
+/COM,ANSYS RELEASE Release 17.0      BUILD 17.0      UP20151214       15:17:38
+
+ *** WARNING ***                         CP =       1.719   TIME= 15:17:42
+ The /BATCH command must be the first line of input.  The /BATCH command 
+ is ignored.                                                             
+
+ *** WARNING ***                         CP =       1.750   TIME= 15:17:42
+ User Interface mode is already on.  Command ignored.                    
+
+ *** ERROR ***                           CP =       1.891   TIME= 15:17:42
+ Unable to create primitive with 0 height.  BLC4 command is ignored.     
+
+ *** ERROR ***                           CP =       1.922   TIME= 15:17:44
+ Unable to create primitive with 0 height.  BLC4 command is ignored.     
+
+ *** WARNING ***                         CP =       2.078   TIME= 15:17:48
+ No entities defined for GPLOT in window 1.  Command ignored.            
+
+ *** WARNING ***                         CP =       5.109   TIME= 15:21:08
+ Both solid model and finite element model boundary conditions have been 
+ applied to this model.  As solid loads are transferred to the nodes or  
+ elements, they can overwrite directly applied loads.                    

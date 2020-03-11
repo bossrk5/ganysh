@@ -1,0 +1,4 @@
+*cfopen,data_file,txt
+*VWRITE,F_gr(1),V_gr(1), K_gr(1)
+('F=',F10.4,' V=',F10.4,' K=',F10.4)
+*CFCLOS
